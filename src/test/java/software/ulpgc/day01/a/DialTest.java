@@ -123,10 +123,11 @@ public class DialTest {
 
     @Test
     public void aoc_file() {
-        try (InputStream is = getClass().getResourceAsStream("/software/ulpgc/day01/a/orders.txt")) {
+        try (InputStream is = getClass().getResourceAsStream("/day01/a/orders.txt")) {
             Assert.assertNotNull(is);
             String seq = new String(is.readAllBytes());
-            assertThat(Dial.create().execute(seq).position()).isEqualTo(1);
+            assertThat(Dial.create().execute(seq).position()).isEqualTo(92);
+            assertThat(Dial.create().execute(seq).count()).isEqualTo(1150);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

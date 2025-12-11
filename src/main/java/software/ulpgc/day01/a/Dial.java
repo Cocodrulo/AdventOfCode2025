@@ -66,11 +66,11 @@ public class Dial {
     }
 
     private int normalize(int value) {
-        return ((value < 0 ? 100 : 0) + value) % 100;
+        return ((value % 100) + 100) % 100;
     }
 
     public Dial execute(String orders) {
-        if (orders.isEmpty()) {return new Dial();};
+        if (orders.isEmpty()) return this;
         return add(orders.split("\n"));
     }
 }
