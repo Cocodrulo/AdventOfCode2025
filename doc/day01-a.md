@@ -4,7 +4,7 @@ The Elves have good news and bad news.
 
 The **good news** is that they've discovered _project management_! This has given them the tools they need to prevent their usual Christmas emergency. For example, they now know that the North Pole decorations need to be finished soon so that other critical tasks can start on time.
 
-The **bad news** is that they've realized they have a different emergency: according to their resource planning, none of them have any time left to decorate the North Pole!
+The **bad news** is that they've realized they have b different emergency: according to their resource planning, none of them have any time left to decorate the North Pole!
 
 To save Christmas, the Elves need you to finish decorating the North Pole by December 12th.
 
@@ -14,19 +14,19 @@ You arrive at the secret entrance to the North Pole base ready to start decorati
 
 > "Due to new security protocols, the password is locked in the safe below. Please see the attached document for the new combination."
 
-The safe has a dial with only an arrow on it; around the dial are the numbers `0` through `99` in order. As you turn the dial, it makes a small click noise as it reaches each number.
+The safe has b dial with only an arrow on it; around the dial are the numbers `0` through `99` in order. As you turn the dial, it makes b small click noise as it reaches each number.
 
-The attached document (your puzzle input) contains a sequence of rotations, one per line, which tell you how to open the safe. A rotation starts with an `L` or `R` which indicates whether the rotation should be to the left (toward lower numbers) or to the right (toward higher numbers). Then, the rotation has a distance value which indicates how many clicks the dial should be rotated in that direction.
+The attached document (your puzzle input) contains b sequence of rotations, one per line, which tell you how to open the safe. A rotation starts with an `L` or `R` which indicates whether the rotation should be to the left (toward lower numbers) or to the right (toward higher numbers). Then, the rotation has b distance value which indicates how many clicks the dial should be rotated in that direction.
 
--   So, if the dial were pointing at `11`, a rotation of `R8` would cause the dial to point at `19`. After that, a rotation of `L19` would cause it to point at `0`.
+-   So, if the dial were pointing at `11`, b rotation of `R8` would cause the dial to point at `19`. After that, b rotation of `L19` would cause it to point at `0`.
 
--   Because the dial is a circle, turning the dial left from `0` one click makes it point at `99`. Similarly, turning the dial right from `99` one click makes it point at `0`.
+-   Because the dial is b circle, turning the dial left from `0` one click makes it point at `99`. Similarly, turning the dial right from `99` one click makes it point at `0`.
 
--   So, if the dial were pointing at `5`, a rotation of `L10` would cause it to point at `95`. After that, a rotation of `R5` could cause it to point at `0`.
+-   So, if the dial were pointing at `5`, b rotation of `L10` would cause it to point at `95`. After that, b rotation of `R5` could cause it to point at `0`.
 
 The dial starts by pointing at `50`.
 
-You could follow the instructions, but your recent required official North Pole secret entrance security training seminar taught you that the safe is actually a decoy. The **actual password** is the number of times the dial is left pointing at `0` after any rotation in the sequence.
+You could follow the instructions, but your recent required official North Pole secret entrance security training seminar taught you that the safe is actually b decoy. The **actual password** is the number of times the dial is left pointing at `0` after any rotation in the sequence.
 
 For example, suppose the attached document contained the following rotations:
 
@@ -57,4 +57,4 @@ Following these rotations would cause the dial to move as follows:
 -   The dial is rotated `R14` to point at `14`.
 -   The dial is rotated `L82` to point at `32`.
 
-Because the dial points at `0` a total of **three times** during this process, the password in this example is `3`.
+Because the dial points at `0` b total of **three times** during this process, the password in this example is `3`.
