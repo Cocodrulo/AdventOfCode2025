@@ -67,7 +67,7 @@ public record PresentFitter(List<Shape> shapes, List<Region> regions) {
         List<Shape> presents = IntStream.range(0, counts.length)
                 .boxed()
                 .flatMap(i -> IntStream.range(0, counts[i])
-                        .mapToObj(j -> parsedShapes.get(i)))
+                        .mapToObj(_ -> parsedShapes.get(i)))
                 .toList();
 
         return new Region(
