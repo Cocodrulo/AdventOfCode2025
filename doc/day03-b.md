@@ -2,7 +2,7 @@
 
 ## Enunciado
 
-<!-- Rellenar con el enunciado del problema -->
+Ahora necesitas más voltaje. En lugar de encender exactamente dos baterías, debes encender exactamente doce baterías dentro de cada banco. El voltaje de salida es el número formado por los 12 dígitos de las baterías encendidas. Encuentra el máximo voltaje posible de cada banco y suma todos los voltajes.
 
 ## Patrones de diseÃ±o
 
@@ -50,3 +50,4 @@ Ambas partes comparten el mismo cÃ³digo, sugiriendo que:
 ### ValidaciÃ³n del Algoritmo Greedy
 
 Que el algoritmo greedy funcione para ambas partes valida que la estrategia de optimizaciÃ³n local es correcta para este tipo de problema.
+

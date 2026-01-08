@@ -2,7 +2,7 @@
 
 ## Enunciado
 
-<!-- Rellenar con el enunciado del problema -->
+Para encender la escalera hacia el departamento de impresi髇 necesitas bater韆s. Cada banco de bater韆s tiene m鷏tiples bater韆s con valores de 1 a 9. Debes encender exactamente dos bater韆s por banco, y el voltaje producido es el n鷐ero formado por los d韌itos de las bater韆s encendidas (sin reordenar). Tu objetivo es maximizar el voltaje de cada banco y sumar todos los voltajes m醲imos.
 
 ## Patrones de dise帽o
 
@@ -188,3 +188,4 @@ Divide un string en caracteres individuales, lo cual es elegante pero podr铆a se
 ### Design Trade-off: Simplicidad vs Rendimiento
 
 El c贸digo favorece **claridad sobre optimizaci贸n**: usa streams, m煤ltiples sublistas, y concatenaci贸n de strings en lugar de manipulaci贸n de bits. Esto es apropiado para problemas de AoC donde la legibilidad es m谩s valiosa que microsegundos de performance.
+

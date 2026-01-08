@@ -1,8 +1,8 @@
-# Día 7 - Parte B
+# Día 7: Laboratorios - Parte B
 
 ## Enunciado
 
-<!-- Rellenar con el enunciado del problema -->
+Es un manifold de tachyones cuántico: una sola partícula toma ambos caminos (izquierda y derecha) en cada divisor. Según la interpretación de muchos mundos, cada división crea una nueva línea temporal. Debes calcular el número total de líneas temporales activas después de que una sola partícula complete todos sus posibles viajes a través del manifold.
 
 ## Patrones de diseño
 

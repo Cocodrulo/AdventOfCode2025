@@ -2,7 +2,7 @@
 
 ## Enunciado
 
-<!-- Rellenar con el enunciado del problema -->
+Ahora un ID es inv·lido si est· formado por una secuencia de dÌgitos repetida al menos dos veces (puede ser 2, 3, 4 o m·s repeticiones). Por ejemplo: 12341234 (1234 dos veces), 123123123 (123 tres veces), 1212121212 (12 cinco veces), y 1111111 (1 siete veces) son todos IDs inv·lidos. Debes sumar todos estos IDs inv·lidos dentro de los rangos dados.
 
 ## Patrones de dise√±o
 
@@ -86,3 +86,4 @@ Que el mismo c√≥digo resuelva ambas partes es una fuerte validaci√≥n de que:
 -   Las abstracciones est√°n en el nivel correcto
 -   La separaci√≥n de responsabilidades es adecuada
 -   El c√≥digo es suficientemente gen√©rico sin ser over-engineered
+

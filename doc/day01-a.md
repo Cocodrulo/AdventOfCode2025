@@ -1,8 +1,8 @@
-# Día 1 - Parte A
+# Día 1: Entrada Secreta - Parte A
 
 ## Enunciado
 
-The safe has a dial with numbers 0-99. Given a sequence of rotations (L/R with distance), starting at 50, count how many times the dial points to 0 after any rotation.
+Debes abrir la entrada secreta del Polo Norte usando una caja fuerte con un dial circular numerado del 0 al 99. El dial comienza en 50 y debes seguir una secuencia de rotaciones (L=izquierda, R=derecha) dadas en el input. La contraseña real no es la posición final del dial, sino el número de veces que el dial apunta exactamente al 0 después de completar cada rotación de la secuencia.
 
 ## Patrones de diseño
 

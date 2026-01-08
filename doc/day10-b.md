@@ -1,8 +1,8 @@
-# Día 10 - Parte B
+# Día 10: Fábrica - Parte B
 
 ## Enunciado
 
-<!-- Rellenar con el enunciado del problema -->
+Ahora debes configurar los niveles de voltaje (ignorando las luces indicadoras). Cada máquina tiene contadores de voltaje que comienzan en 0. Al presionar un botón, incrementas en 1 los contadores especificados. Debes encontrar el mínimo número total de presiones de botones necesarias para configurar los contadores de voltaje de todas las máquinas a los valores requeridos.
 
 ## Patrones de diseño
 

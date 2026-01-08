@@ -1,8 +1,8 @@
-# Día 8 - Parte A
+# Día 8: Zona de Juegos - Parte A
 
 ## Enunciado
 
-<!-- Rellenar con el enunciado del problema -->
+En una zona de juegos subterránea, los elfos están configurando decoraciones navideñas conectando cajas de conexión eléctricas en el espacio 3D. Para ahorrar luces, quieren conectar los pares más cercanos primero. Debes conectar los 1000 pares de cajas más cercanas y luego multiplicar los tamaños de los tres circuitos más grandes formados.
 
 ## Patrones de diseño
 

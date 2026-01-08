@@ -1,8 +1,8 @@
-# Día 11 - Parte B
+# Día 11: Reactor - Parte B
 
 ## Enunciado
 
-<!-- Rellenar con el enunciado del problema -->
+Los elfos han descubierto que el problema está en caminos que pasan por dos dispositivos específicos: `dac` (convertidor digital-analógico) y `fft` (transformada rápida de Fourier). Ahora debes encontrar todos los caminos desde `svr` (server rack) hasta `out` que visiten tanto `dac` como `fft` en cualquier orden.
 
 ## Patrones de diseño
 

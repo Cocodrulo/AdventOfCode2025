@@ -1,8 +1,8 @@
-# Día 8 - Parte B
+# Día 8: Zona de Juegos - Parte B
 
 ## Enunciado
 
-<!-- Rellenar con el enunciado del problema -->
+Los elfos no tienen suficientes cables de extensión. Debes continuar conectando pares de cajas hasta que todas estén en un solo circuito grande. Encuentra qué par de cajas conectas al final y multiplica sus coordenadas X.
 
 ## Patrones de diseño
 

@@ -1,8 +1,8 @@
-# Día 12
+# Día 12: Granja de Árboles de Navidad
 
 ## Enunciado
 
-<!-- Rellenar con el enunciado del problema -->
+En la granja de árboles de Navidad, los elfos necesitan colocar regalos bajo los árboles. Los regalos vienen en formas estándar (mostradas como grids con # representando partes sólidas). Cada región bajo un árbol tiene un tamaño específico y necesita fit un número determinado de regalos de cada forma. Los regalos pueden rotarse y voltearse, pero deben colocarse perfectamente en la cuadrícula sin overlap. Debes determinar cuántas regiones pueden fit todos los regalos listados para esa región.
 
 ## Patrones de diseño
 

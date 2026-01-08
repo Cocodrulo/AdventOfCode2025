@@ -1,8 +1,8 @@
-# Día 10 - Parte A
+# Día 10: Fábrica - Parte A
 
 ## Enunciado
 
-<!-- Rellenar con el enunciado del problema -->
+Las máquinas de la fábrica están apagadas y necesitas inicializarlas. Cada máquina tiene luces indicadoras ([.##.]), botones que togglean luces específicas ((0,3,4)), y requerimientos de voltaje ({3,5,4,7}). Para configurar las luces, presionas botones; cada botón puede presionarse múltiples veces. Debes encontrar el mínimo número de presiones de botones necesarias para configurar correctamente todas las máquinas.
 
 ## Patrones de diseño
 

@@ -1,8 +1,8 @@
-# Día 1 - Parte B
+# Día 1: Entrada Secreta - Parte B
 
 ## Enunciado
 
-<!-- Rellenar con el enunciado del problema -->
+Ahora el método de contraseña cambia (método 0x434C49434B): debes contar el número de veces que el dial cruza por el 0 durante cualquier rotación, no solo al final de cada una. Por ejemplo, si el dial está en 50 y se hace una rotación R1000, cruzará el 0 diez veces antes de volver a 50. Esto incluye tanto los cruces durante el movimiento como los aterrizajes exactos en 0.
 
 ## Patrones de diseño
 

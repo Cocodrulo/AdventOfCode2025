@@ -1,8 +1,8 @@
-# Día 6 - Parte A
+# Día 6: Compactador de Basura - Parte A
 
 ## Enunciado
 
-<!-- Rellenar con el enunciado del problema -->
+Ayudas a una familia de cefalópodos con matemáticas mientras esperan a abrir una puerta. Los problemas están dispuestos horizontalmente en columnas donde cada columna es un problema vertical. Los números están alineados verticalmente y al final de cada columna hay un símbolo (+ o \*) indicando la operación. Debes resolver cada problema y sumar todos los resultados para obtener el gran total.
 
 ## Patrones de diseño
 

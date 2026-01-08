@@ -1,8 +1,8 @@
-# Día 7 - Parte A
+# Día 7: Laboratorios - Parte A
 
 ## Enunciado
 
-<!-- Rellenar con el enunciado del problema -->
+Te encuentras en un laboratorio de teletransportadores que tiene un problema con un manifold de tachyones. Los haces de tachyones (que siempre se mueven hacia abajo) se dividen al encontrar divisores (^). Cuando un haz encuentra un divisor, se detiene y dos nuevos haces continúan desde la izquierda y derecha inmediatas del divisor. Debes analizar cuántas veces se dividirá el haz en total.
 
 ## Patrones de diseño
 

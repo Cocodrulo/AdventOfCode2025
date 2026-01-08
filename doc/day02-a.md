@@ -1,8 +1,8 @@
-# Día 2 - Parte A
+# Día 2: Tienda de Regalos - Parte A
 
 ## Enunciado
 
-<!-- Rellenar con el enunciado del problema -->
+Un elfo joven ha añadido IDs de producto inválidos a la base de datos de la tienda del Polo Norte. Los IDs inválidos son aquellos formados por una secuencia de dígitos repetida exactamente dos veces (ej: 55, 6464, 123123). Los IDs no pueden empezar con cero. Dado un conjunto de rangos de IDs, debes identificar y sum ar todos los IDs inválidos que aparecen en esos rangos.
 
 ## Patrones de diseño
 

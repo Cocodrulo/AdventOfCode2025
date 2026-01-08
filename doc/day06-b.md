@@ -1,8 +1,8 @@
-# Día 6 - Parte B
+# Día 6: Compactador de Basura - Parte B
 
 ## Enunciado
 
-<!-- Rellenar con el enunciado del problema -->
+Los cefalópodos olvidaron explicar que las matemáticas se leen de derecha a izquierda en columnas. Cada número se da en su propia columna con el dígito más significativo arriba y el menos significativo abajo. Debes releer los problemas de derecha a izquierda y calcular el nuevo gran total.
 
 ## Patrones de diseño
 

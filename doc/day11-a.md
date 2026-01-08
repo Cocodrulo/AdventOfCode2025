@@ -1,8 +1,8 @@
-# Día 11 - Parte A
+# Día 11: Reactor - Parte A
 
 ## Enunciado
 
-<!-- Rellenar con el enunciado del problema -->
+En el reactor que alimenta la fábrica, hay un problema de comunicación con el nuevo server rack. Tienes una lista de dispositivos y sus conexiones de salida (formato: `dispositivo: salida1 salida2`). Los datos fluyen desde dispositivos a través de sus salidas (no pueden fluir hacia atrás). Debes encontrar cuántos caminos diferentes conducen desde el dispositivo `you` hasta el dispositivo `out`.
 
 ## Patrones de diseño
 

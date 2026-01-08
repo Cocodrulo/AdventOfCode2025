@@ -1,8 +1,8 @@
-# Día 9 - Parte A
+# Día 9: Cine - Parte A
 
 ## Enunciado
 
-<!-- Rellenar con el enunciado del problema -->
+En el cine del Polo Norte, los elfos quieren encontrar el rectángulo más grande que pueda formarse usando dos tiles rojos como esquinas opuestas. Tienes una lista de posiciones de tiles rojos en una cuadrícula. Debes encontrar el área del rectángulo más grande posible que tenga dos tiles rojos en esquinas opuestas.
 
 ## Patrones de diseño
 
