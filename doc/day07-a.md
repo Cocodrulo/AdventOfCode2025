@@ -103,7 +103,7 @@ parse(String) -> parse(String[]) -> parse(List<String>)
 
 Cada paso agrega processing adicional.
 
-## Cualquier otro dato interesante
+## Datos Interesantes
 
 ### Singleton No Thread-Safe
 

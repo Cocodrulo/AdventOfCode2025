@@ -33,7 +33,7 @@ Mismos algoritmos de búsqueda de vecinos y construcción de grafo que la Parte 
 
 Arquitectura compartida con la Parte A, demostrando reutilización efectiva del diseño.
 
-## Cualquier otro dato interesante
+## Datos Interesantes
 
 ### Código Reutilizado
 

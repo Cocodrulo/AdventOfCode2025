@@ -36,7 +36,7 @@ Mismos algoritmos:
 
 Arquitectura compartida con la Parte A.
 
-## Cualquier otro dato interesante
+## Datos Interesantes
 
 ### Código Reutilizado
 

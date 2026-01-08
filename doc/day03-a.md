@@ -162,7 +162,7 @@ Esto es:
 -   Componible (fácil agregar pasos)
 -   Testeable (cada transformación es pura)
 
-## Cualquier otro dato interesante
+## Datos Interesantes
 
 ### Potencial Mejora: Validación
 

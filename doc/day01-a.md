@@ -97,7 +97,7 @@ En `count()`, se utiliza `IntStream.parallel()` para paralelizar el conteo de po
 -   Garantiza inmutabilidad por defecto
 -   Comunica claramente que es un contenedor de datos
 
-## Cualquier otro dato interesante
+## Datos Interesantes
 
 ### Offset de +50
 

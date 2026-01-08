@@ -179,7 +179,7 @@ String -> String[] -> Stream<String[]> -> transposed -> classified -> operators
 
 Cada capa es una transformación pura y testeable.
 
-## Cualquier otro dato interesante
+## Datos Interesantes
 
 ### Retorno null en SumList.addAll
 

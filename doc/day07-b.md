@@ -31,7 +31,7 @@ Mismos algoritmos de construcción iterativa y procesamiento por niveles.
 
 Arquitectura compartida con la Parte A.
 
-## Cualquier otro dato interesante
+## Datos Interesantes
 
 ### Mismo Singleton
 

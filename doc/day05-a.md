@@ -156,7 +156,7 @@ Se clasifica al agregar en lugar de al contar:
 -   **Ventaja**: Puede consultar múltiples veces sin recomputar
 -   **Desventaja**: Requiere más memoria (guarda todos los ingredientes)
 
-## Cualquier otro dato interesante
+## Datos Interesantes
 
 ### Regex para Líneas Vacías
 

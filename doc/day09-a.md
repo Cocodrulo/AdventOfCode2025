@@ -120,7 +120,7 @@ Dos pasos claros:
 
 Esto separa I/O de lógica de negocio.
 
-## Cualquier otro dato interesante
+## Datos Interesantes
 
 ### Método area en Rectangle
 

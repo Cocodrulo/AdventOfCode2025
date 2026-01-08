@@ -208,7 +208,7 @@ Ordenar por `List::size` (menos opciones primero) es **heurística de fallo ráp
 -   Si una shape tiene pocas opciones, mejor fallar temprano
 -   Reduce el árbol de búsqueda significativamente
 
-## Cualquier otro dato interesante
+## Datos Interesantes
 
 ### Cache Key para BitSet
 

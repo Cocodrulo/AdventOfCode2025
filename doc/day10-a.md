@@ -173,7 +173,7 @@ private static final Pattern LIGHTS_PATTERN = ...
 
 Precompilar patterns es una **optimización importante**: la compilación de regex es costosa.
 
-## Cualquier otro dato interesante
+## Datos Interesantes
 
 ### BFS Garantiza Camino Más Corto
 

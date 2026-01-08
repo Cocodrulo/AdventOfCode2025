@@ -61,7 +61,7 @@ La Parte B aprovecha exactamente la misma implementación que la Parte A, demost
 
 El hecho de que no se requieran cambios en el código para la Parte B valida el principio **Open/Closed**: el código está abierto para extensión (puede usarse con diferentes inputs) pero cerrado para modificación.
 
-## Cualquier otro dato interesante
+## Datos Interesantes
 
 ### Código Idéntico
 

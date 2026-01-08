@@ -37,7 +37,7 @@ Las elecciones arquitectónicas son idénticas a la Parte A.
 
 La Parte B reutiliza completamente la arquitectura de la Parte A, indicando un diseño robusto y genérico.
 
-## Cualquier otro dato interesante
+## Datos Interesantes
 
 ### Código Compartido
 

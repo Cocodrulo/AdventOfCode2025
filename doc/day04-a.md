@@ -144,7 +144,7 @@ Position es **value object** perfecto:
 -   Inmutable por naturaleza
 -   `equals` basado en valor (automático con record)
 
-## Cualquier otro dato interesante
+## Datos Interesantes
 
 ### Constant MAX_ADJACENT_PAPER_ROLLS
 

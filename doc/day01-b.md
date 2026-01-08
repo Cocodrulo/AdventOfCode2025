@@ -111,7 +111,7 @@ IntStream.of(orders.get(index).step())
 
 Maneja elegantemente el caso edge de step == 0 sin condicionales explícitos.
 
-## Cualquier otro dato interesante
+## Datos Interesantes
 
 ### Manejo de Movimientos Nulos
 

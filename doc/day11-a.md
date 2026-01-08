@@ -117,7 +117,7 @@ Usa `Collectors.toMap()` como estructura intermedia, demostrando uso avanzado de
 
 `Set<Device>` elimina duplicados automáticamente, aunque el parsing probablemente ya garantiza unicidad.
 
-## Cualquier otro dato interesante
+## Datos Interesantes
 
 ### Grafo como Estructura Implícita
 

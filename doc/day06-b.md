@@ -37,7 +37,7 @@ Mismos algoritmos:
 
 Arquitectura completamente compartida con la Parte A, demostrando que el patrón Strategy y la interfaz `OperatorList` fueron diseñados correctamente desde el inicio.
 
-## Cualquier otro dato interesante
+## Datos Interesantes
 
 ### Mismo Código, Mismas Ventajas
 

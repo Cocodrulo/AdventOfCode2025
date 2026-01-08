@@ -163,7 +163,7 @@ La elección de un algoritmo greedy (seleccionar las N conexiones más cortas) s
 
 Se pasa como parámetro del constructor en lugar de hardcodear, demostrando **parametrización** y flexibilidad.
 
-## Cualquier otro dato interesante
+## Datos Interesantes
 
 ### Position 3D
 

@@ -32,7 +32,7 @@ Probablemente algoritmos similares de generación de combinaciones y cálculo ge
 
 Arquitectura compartida con Parte A para procesamiento geométrico.
 
-## Cualquier otro dato interesante
+## Datos Interesantes
 
 ### Posibles Variaciones
 

@@ -33,7 +33,7 @@ Mismo **BFS recursivo** para búsqueda de camino más corto en espacio de estado
 
 Arquitectura completamente compartida con Parte A, demostrando que el algoritmo BFS es suficientemente genérico.
 
-## Cualquier otro dato interesante
+## Datos Interesantes
 
 ### Mismo Código BFS
 

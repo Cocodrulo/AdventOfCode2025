@@ -147,7 +147,7 @@ Aunque `calculate()` tiene side effects (llena la lista de IDs), mantiene la int
 -   El beneficio de legibilidad supera la impureza funcional
 -   El estado está encapsulado
 
-## Cualquier otro dato interesante
+## Datos Interesantes
 
 ### Lazy Evaluation con forEach
 

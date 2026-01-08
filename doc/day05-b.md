@@ -33,7 +33,7 @@ Mismos algoritmos de verificación de rangos y clasificación que la Parte A.
 
 Arquitectura compartida con la Parte A, demostrando diseño robusto y reutilizable.
 
-## Cualquier otro dato interesante
+## Datos Interesantes
 
 ### Reutilización Total
 

@@ -43,7 +43,7 @@ La Parte B introduce `CacheKey` y `VisitedSet`, sugiriendo:
 -   Posible tracking de estados visitados
 -   Optimizaciones para problemas más grandes
 
-## Cualquier otro dato interesante
+## Datos Interesantes
 
 ### Extensión delMemoization
 
