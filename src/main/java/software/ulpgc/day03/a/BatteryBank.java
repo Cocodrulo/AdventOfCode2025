@@ -1,7 +1,6 @@
 package software.ulpgc.day03.a;
 
 import java.util.List;
-import java.util.stream.IntStream;
 
 public record BatteryBank(List<Integer> batteries)  {
 

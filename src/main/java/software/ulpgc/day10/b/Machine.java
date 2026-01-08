@@ -12,13 +12,11 @@ public class Machine {
     private static final Pattern JOLTAGE_PATTERN = Pattern.compile("\\{(.*?)}");
 
     private final Set<Button> buttons;
-    private final List<Integer> currentJoltage;
     private final List<Integer> joltageRequirementsList;
 
     private Machine() {
         buttons = new HashSet<>();
         joltageRequirementsList = new ArrayList<>();
-        currentJoltage = new ArrayList<>();
     }
 
     public static Machine create(String input) {

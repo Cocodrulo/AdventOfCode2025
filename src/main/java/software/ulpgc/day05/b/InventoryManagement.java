@@ -1,11 +1,9 @@
 package software.ulpgc.day05.b;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collector;
-import java.util.stream.Stream;
 
 public class InventoryManagement {
     private final List<Range> ranges;

@@ -27,10 +27,6 @@ public class Machine {
         return parseLights(input).parseButton(input);
     }
 
-    private Stream<String> getJoltageStream(String LIGHTS_PATTERN) {
-        return Arrays.stream(LIGHTS_PATTERN.split(","));
-    }
-
     private Machine parseLights(String input) {
         indicatorLights.parse(parseResult(LIGHTS_PATTERN.matcher(input)));
         return this;
