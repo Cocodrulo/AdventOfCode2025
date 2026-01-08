@@ -1,60 +1,112 @@
-# Day 1: Secret Entrance
+# Día 1 - Parte A
 
-The Elves have good news and bad news.
+## Enunciado
 
-The **good news** is that they've discovered _project management_! This has given them the tools they need to prevent their usual Christmas emergency. For example, they now know that the North Pole decorations need to be finished soon so that other critical tasks can start on time.
+The safe has a dial with numbers 0-99. Given a sequence of rotations (L/R with distance), starting at 50, count how many times the dial points to 0 after any rotation.
 
-The **bad news** is that they've realized they have b different emergency: according to their resource planning, none of them have any time left to decorate the North Pole!
+## Patrones de diseño
 
-To save Christmas, the Elves need you to finish decorating the North Pole by December 12th.
+### Factory Method
 
-Collect stars by solving puzzles. Two puzzles will be made available on each day; the second puzzle is unlocked when you complete the first. Each puzzle grants one star. Good luck!
+Se utiliza el patrón **Factory Method** mediante el método estático `Dial.create()` en lugar de exponer directamente el constructor. Esto proporciona flexibilidad para futuras extensiones y encapsula la lógica de creación.
 
-You arrive at the secret entrance to the North Pole base ready to start decorating. Unfortunately, the password seems to have been changed, so you can't get in. A document taped to the wall helpfully explains:
+### Fluent API (Builder Pattern)
 
-> "Due to new security protocols, the password is locked in the safe below. Please see the attached document for the new combination."
+La clase `Dial` implementa un **Fluent API** donde cada método retorna `this`, permitiendo encadenar llamadas como `Dial.create().add(...).execute(...)`. Esto mejora la legibilidad y hace el código más expresivo.
 
-The safe has b dial with only an arrow on it; around the dial are the numbers `0` through `99` in order. As you turn the dial, it makes b small click noise as it reaches each number.
+### Immutability
 
-The attached document (your puzzle input) contains b sequence of rotations, one per line, which tell you how to open the safe. A rotation starts with an `L` or `R` which indicates whether the rotation should be to the left (toward lower numbers) or to the right (toward higher numbers). Then, the rotation has b distance value which indicates how many clicks the dial should be rotated in that direction.
+Se usa el tipo `record Order(int step)` para crear objetos inmutables que representan órdenes. Los records son ideales para DTOs (Data Transfer Objects) simples y garantizan thread-safety.
 
--   So, if the dial were pointing at `11`, b rotation of `R8` would cause the dial to point at `19`. After that, b rotation of `L19` would cause it to point at `0`.
+### Clean Code
 
--   Because the dial is b circle, turning the dial left from `0` one click makes it point at `99`. Similarly, turning the dial right from `99` one click makes it point at `0`.
+-   **Métodos pequeños con responsabilidad única**: Cada método tiene una tarea clara (`parse`, `signOf`, `valueOf`,`normalize`)
+-   **Nombres descriptivos**: Los nombres comunican intención (`sumPartial`, `iterate`)
+-   **Encapsulación**: Los detalles de implementación están privados
 
--   So, if the dial were pointing at `5`, b rotation of `L10` would cause it to point at `95`. After that, b rotation of `R5` could cause it to point at `0`.
+## Estructuras de datos
 
-The dial starts by pointing at `50`.
+### List<Order>
 
-You could follow the instructions, but your recent required official North Pole secret entrance security training seminar taught you that the safe is actually b decoy. The **actual password** is the number of times the dial is left pointing at `0` after any rotation in the sequence.
+Se utiliza `ArrayList<Order>` como estructura principal para almacenar la secuencia de órdenes. Esta elección permite:
 
-For example, suppose the attached document contained the following rotations:
+-   Acceso secuencial eficiente con `stream()`
+-   Operaciones de límite con `limit(size)`
+-   Acceso indexado para cálculos parciales
 
-```text
-L68
-L30
-R48
-L5
-R60
-L55
-L1
-L99
-R14
-L82
+### Stream API
+
+Uso extensivo de Streams para procesamiento funcional:
+
+-   `Arrays.stream(orders).map().forEach()` - Transformación y acción
+-   `IntStream.rangeClosed()` - Generación de rangos
+-   `parallel()` - Paralelización para cálculos intensivos en el método `count()`
+
+## Algoritmos aplicados
+
+### Aritmética Modular
+
+El algoritmo central usa **aritmética modular** para mantener valores en el rango [0, 100):
+
+```java
+private int normalize(int value) {
+    return ((value % 100) + 100) % 100;
+}
 ```
 
-Following these rotations would cause the dial to move as follows:
+La doble normalización maneja correctamente valores negativos.
 
--   The dial starts by pointing at `50`.
--   The dial is rotated `L68` to point at `82`.
--   The dial is rotated `L30` to point at `52`.
--   The dial is rotated `R48` to point at `0`.
--   The dial is rotated `L5` to point at `95`.
--   The dial is rotated `R60` to point at `55`.
--   The dial is rotated `L55` to point at `0`.
--   The dial is rotated `L1` to point at `99`.
--   The dial is rotated `L99` to point at `0`.
--   The dial is rotated `R14` to point at `14`.
--   The dial is rotated `L82` to point at `32`.
+### Procesamiento de Streams Paralelo
 
-Because the dial points at `0` b total of **three times** during this process, the password in this example is `3`.
+En `count()`, se utiliza `IntStream.parallel()` para paralelizar el conteo de posiciones que cruzan el cero, optimizando el rendimiento.
+
+## Interfaces
+
+**No se utilizan interfaces** en esta implementación.
+
+**Justificación**:
+
+-   `Dial` es una clase concreta con una responsabilidad clara y no necesita abstracciones
+-   No hay múltiples implementaciones alternativas del comportamiento
+-   El diseño favorece YAGNI (You Aren't Gonna Need It)
+-   La clase es suficientemente simple y cohesiva
+
+## El por qué de esas elecciones
+
+### Factory Method sobre Constructor Público
+
+-   Permite nombrar el método de creación de forma más expresiva
+-   Facilita futuras variantes sin romper el código existente
+-   Sigue el principio de Open/Closed
+
+### Fluent API
+
+-   Mejora la legibilidad del código cliente
+-   Reduce la necesidad de variables temporales
+-   Hace el código más declarativo
+
+### Streams sobre bucles tradicionales
+
+-   Código más expresivo y funcional
+-   Facilita paralelización con cambios mínimos
+-   Reduce errores relacionados con índices y estado mutable
+
+### Records para Order
+
+-   Elimina boilerplate (constructor, getters, equals, hashCode)
+-   Garantiza inmutabilidad por defecto
+-   Comunica claramente que es un contenedor de datos
+
+## Cualquier otro dato interesante
+
+### Offset de +50
+
+El método `sum` aplica un offset de `+50` antes del módulo, correspondiente al punto de inicio del dial.
+
+### Método execute como Entry Point
+
+El método `execute(String orders)` actúa como punto de entrada principal, manejando input vacío y delegando el parsing. Esto separa la validación de entrada de la lógica de negocio.
+
+### Paralelización selectiva
+
+Solo el método `count()` usa paralelización, indicando una optimización consciente donde el beneficio supera el overhead.
