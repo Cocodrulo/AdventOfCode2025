@@ -2,6 +2,10 @@
 
 Soluciones para Advent of Code 2025 implementadas en Java, siguiendo principios de Clean Code, SOLID, y patrones de diseño.
 
+## Uso de la IA
+
+Este readme y la plantilla para las documentaciones han sido realizadas con IA. Es uso de estas herramientas para tareas repetitivas y creación de archivos markdown es bastante útil y mejora la eficiencia de un programador o desarrollador de código. 
+
 ## Estructura del Proyecto
 
 -   `src/main/java/software/ulpgc/` - Código fuente de las soluciones
