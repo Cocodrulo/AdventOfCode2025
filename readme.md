@@ -14,7 +14,7 @@ Este readme y la plantilla para las documentaciones han sido realizadas con IA. 
 
 ## Soluciones por Día
 
-### [Día 1: Secret Entrance](doc/day01-a.md)
+### Día 1: Secret Entrance
 
 **Parte A**: Circular dial con aritmética modular
 
