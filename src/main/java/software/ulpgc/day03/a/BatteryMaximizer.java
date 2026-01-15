@@ -22,8 +22,7 @@ public class BatteryMaximizer {
                 .map(String::trim)
                 .map(bB -> new BatteryBank(Arrays
                         .stream(bB.split(""))
-                        .mapToInt(Integer::parseInt)
-                        .boxed()
+                        .map(Integer::parseInt)
                         .collect(Collectors.toList())))
                 .collect(Collectors.toList())
         );
